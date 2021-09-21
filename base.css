@@ -1,0 +1,48 @@
+:root {
+    --text-color-1 : #757575;
+    --text-color-2 : #333;
+    --text-color-3 : #ffffff;
+    --navbar-color : #ffffff;
+    --primary-color: #f05123;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 63%;
+    overflow-x: hidden;
+}
+
+@keyframes popup {
+    from {
+        height: 0;
+    }
+
+    to {
+        height: 116px;
+    }
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+.btn {
+    min-width: 80px;
+    min-height: 80px;
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+}
